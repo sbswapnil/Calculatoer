@@ -73,7 +73,7 @@ class Calc(Tk):
         self.button_clear.grid(column=0, columnspan=2, row=1, pady=5, sticky=N + S + E + W)
 
     def click(self, value):
-        operators = ['+', '-', '/', '*', '.']
+        # operators = ['+', '-', '/', '*', '.']
 
         equation = self.text.get()
         self.text.delete(0, "end")
